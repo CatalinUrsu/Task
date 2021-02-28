@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_128
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 6f4ac78490d465a4687bc43cb237444f, type: 3}
+    - {fileID: 2800000, guid: ce504b4a970c0344eb251a370b83cbac, type: 3}
+    - {fileID: 2800000, guid: 206fa2ec8f8126f4081317f9b55bb52f, type: 3}
+    - {fileID: 2800000, guid: fb326c4d3f80259429eb2fb51a42052b, type: 3}
+    - {fileID: 2800000, guid: 6b195b901965a1645b7b9e10bb8673fe, type: 3}
+    - {fileID: 2800000, guid: 6f602c86efa3e754589c81cbd74a8a51, type: 3}
+    - {fileID: 2800000, guid: affdf080ddf36284dade900feee22dc2, type: 3}
+    - {fileID: 2800000, guid: 9a1c61ac591e3544e915554e1ea05345, type: 3}
+    - {fileID: 2800000, guid: 8c6225a99e699294d857013b5b55b6f8, type: 3}
+    - {fileID: 2800000, guid: 6c22734c61c4cc2489d2fb57035c55bc, type: 3}
+    - {fileID: 2800000, guid: d5f2ff4d80cbce946b5bdcacc846ffad, type: 3}
+    - {fileID: 2800000, guid: 602d7f884499e0641ac8a740ab6feec4, type: 3}
+    - {fileID: 2800000, guid: ca5330059cc07da4db878f5a5432a948, type: 3}
+    - {fileID: 2800000, guid: 80ab09c72b28c804c8f53600b820a20b, type: 3}
+    - {fileID: 2800000, guid: fa2ac28dba80c9b469f9e2c4dc44febc, type: 3}
+    - {fileID: 2800000, guid: 98be7fcd1b2a019489ef29ca91247b49, type: 3}
+    - {fileID: 2800000, guid: 1cab4d76361569d48adb403f94e9863c, type: 3}
+    - {fileID: 2800000, guid: 869b536128c571349a8a3e1b4b07f4fd, type: 3}
+    totalSpriteSurfaceArea: 286720
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: affdf080ddf36284dade900feee22dc2, type: 3}
+  - {fileID: 21300000, guid: 6b195b901965a1645b7b9e10bb8673fe, type: 3}
+  - {fileID: 21300000, guid: 869b536128c571349a8a3e1b4b07f4fd, type: 3}
+  - {fileID: 21300000, guid: 6f4ac78490d465a4687bc43cb237444f, type: 3}
+  - {fileID: 21300000, guid: ca5330059cc07da4db878f5a5432a948, type: 3}
+  - {fileID: 21300000, guid: 1cab4d76361569d48adb403f94e9863c, type: 3}
+  - {fileID: 21300000, guid: 6f602c86efa3e754589c81cbd74a8a51, type: 3}
+  - {fileID: 21300000, guid: 80ab09c72b28c804c8f53600b820a20b, type: 3}
+  - {fileID: 21300000, guid: 602d7f884499e0641ac8a740ab6feec4, type: 3}
+  - {fileID: 21300000, guid: 8c6225a99e699294d857013b5b55b6f8, type: 3}
+  - {fileID: 21300000, guid: ce504b4a970c0344eb251a370b83cbac, type: 3}
+  - {fileID: 21300000, guid: 6c22734c61c4cc2489d2fb57035c55bc, type: 3}
+  - {fileID: 21300000, guid: 9a1c61ac591e3544e915554e1ea05345, type: 3}
+  - {fileID: 21300000, guid: 206fa2ec8f8126f4081317f9b55bb52f, type: 3}
+  - {fileID: 21300000, guid: fb326c4d3f80259429eb2fb51a42052b, type: 3}
+  - {fileID: 21300000, guid: d5f2ff4d80cbce946b5bdcacc846ffad, type: 3}
+  - {fileID: 21300000, guid: fa2ac28dba80c9b469f9e2c4dc44febc, type: 3}
+  - {fileID: 21300000, guid: 98be7fcd1b2a019489ef29ca91247b49, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Slider_Yellow
+  - Slider_Black
+  - Hystory
+  - GameName
+  - Square_Orange
+  - Star
+  - Slider_Grey
+  - Square_Pink
+  - Square_Grey_1
+  - Square_Blue_Shadow
+  - Logo
+  - Square_Green
+  - Square_Blue
+  - Sign_1
+  - Sign_2
+  - Square_Grey_0
+  - Square_White
+  - Square_White_1
+  m_Tag: Atlas_128
+  m_IsVariant: 0
