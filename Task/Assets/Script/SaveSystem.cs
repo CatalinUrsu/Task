@@ -17,14 +17,9 @@ public static class SaveSystem
         Datas game = new Datas();
 
         game.Score = Datas.current.Score;
-
-        for (int i = 0; i < Datas.current.HistoryDatasAmount.Length; i++)
-        {
-            game.HistoryDatasAmount = Datas.current.HistoryDatasAmount;
-            game.BetsSign = Datas.current.BetsSign;
-            game.ResultSign = Datas.current.ResultSign;
-        }
-
+        game.HistoryPanInfo = Datas.current.HistoryPanInfo;
+        game.BetsSign = Datas.current.BetsSign;
+        game.ResultSign = Datas.current.ResultSign;
 
         bf.Serialize(file, Datas.current);
         file.Close();
@@ -41,13 +36,9 @@ public static class SaveSystem
             file.Close();
 
             Datas.current.Score = game.Score;
-
-            for (int i = 0; i < Datas.current.HistoryDatasAmount.Length; i++)
-            {
-                Datas.current.HistoryDatasAmount = game.HistoryDatasAmount;
-                Datas.current.BetsSign = game.BetsSign;
-                Datas.current.ResultSign = game.ResultSign;
-            }
+            Datas.current.HistoryPanInfo = game.HistoryPanInfo;
+            Datas.current.BetsSign = game.BetsSign;
+            Datas.current.ResultSign = game.ResultSign;
         }
         else
         {

@@ -108,8 +108,8 @@ SpriteAtlas:
   - Logo
   - Square_Green
   - Square_Blue
-  - Sign_1
-  - Sign_2
+  - Sign_Tail
+  - Sign_Head
   - Square_Grey_0
   - Square_White
   - Square_White_1

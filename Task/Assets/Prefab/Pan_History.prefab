@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7885646834456707468}
   - component: {fileID: 7885646834456707471}
   m_Layer: 5
-  m_Name: Img_Sign
+  m_Name: Img_ResultSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 7885646834763914601}
   - component: {fileID: 7885646834763914599}
   - component: {fileID: 7885646834763914598}
+  - component: {fileID: 1047567109601539076}
   m_Layer: 5
   m_Name: Pan_History
   m_TagString: Untagged
@@ -149,6 +150,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1.6
+--- !u!114 &1047567109601539076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885646834763914600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467a220801e4739489de63ca1b30a3be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprite_Win: {fileID: 21300000, guid: 6c22734c61c4cc2489d2fb57035c55bc, type: 3}
+  Sprite_Loose: {fileID: 21300000, guid: 80ab09c72b28c804c8f53600b820a20b, type: 3}
+  Sprite_SignHead: {fileID: 21300000, guid: fb326c4d3f80259429eb2fb51a42052b, type: 3}
+  Sprite_SignTail: {fileID: 21300000, guid: 206fa2ec8f8126f4081317f9b55bb52f, type: 3}
+  Txt_PanPlace: {fileID: 7885646835080947245}
+  Img_Bet: {fileID: 7885646835362357405}
+  Img_Result: {fileID: 7885646834456707471}
 --- !u!1 &7885646834940997367
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +491,7 @@ GameObject:
   - component: {fileID: 7885646835362357402}
   - component: {fileID: 7885646835362357405}
   m_Layer: 5
-  m_Name: Img_Sign
+  m_Name: Img_BetSign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
